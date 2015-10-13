@@ -18,6 +18,6 @@ public class Job implements Runnable {
     
     System.out.println("Job: " + jobNumber + " is ending in thread : "
         + Thread.currentThread().getName());
-    
+        // get name of thread
     }
 }
